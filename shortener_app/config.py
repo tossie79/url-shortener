@@ -8,13 +8,7 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
-        # env_file_encoding = "utf-8"
-        # case_sensitive = True
-        # # Allow the use of environment variables to override settings
-        # env_nested_delimiter = "__"
-
-
-
+     
 
 # ✅ Define this OUTSIDE the class
 @lru_cache()
